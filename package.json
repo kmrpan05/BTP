@@ -1,0 +1,15 @@
+{
+  "name": "btp",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^10.1.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch": "cds watch"
+  }
+}
