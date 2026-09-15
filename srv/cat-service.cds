@@ -1,5 +1,21 @@
-using my.bookshop as my from '../db/schema';
+using {cuid, managed} from '@sap/cds/common';
 
-service CatalogService {
-  entity Books as projection on my.Books;
+
+service bookshop{
+  entity Books : cuid,  {
+   /// key ID : Integer   
+    title   : String;
+    
+  }
+  entity Authors : cuid {
+   /// key ID : Integer
+    name   : String;
+  }
 }
+
+
+//using my.bookshop as my from '../db/schema';
+
+//service CatalogService {
+ // entity Books as projection on my.Books;
+//}

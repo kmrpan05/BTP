@@ -1,0 +1,27 @@
+###
+# @name CustomersQuery
+
+### List Books
+GET http://localhost:4004/odata/v4/bookshop/Books
+
+### List Authors
+GET http://localhost:4004/odata/v4/bookshop/Authors
+
+### Metadata
+GET http://localhost:4004/odata/v4/bookshop/$metadata
+
+### Create Book
+POST http://localhost:4004/odata/v4/bookshop/Books
+Content-Type: application/json
+
+{
+  "title": "My first book"
+}
+
+### Create Author
+POST http://localhost:4004/odata/v4/bookshop/Authors
+Content-Type: application/json
+
+{
+  "name": "DJ Adams"
+}
