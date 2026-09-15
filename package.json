@@ -20,9 +20,10 @@
     "requires": {
       "db": {
         "kind": "sqlite",
-        "model": ["db/schema.cds"],
+        
         "credentials": {
-          "url": ":memory:"
+          "url": "bookshop.sqlite"
+         
         }
       }
     }

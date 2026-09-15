@@ -24,4 +24,5 @@ Content-Type: application/json
 
 {
   "name": "DJ Adams"
+  "countryOfBirth": "US"
 }
