@@ -1,3 +1,4 @@
+
 using {cuid, managed, Country} from '@sap/cds/common';
 
 
@@ -13,6 +14,13 @@ service bookshop{
     countryOfBirth : Country;
   }
 }
+
+//service banana{
+  //entity something as projection on bookshop.Books;
+//}
+    
+
+  
 
 
 //using my.bookshop as my from '../db/schema';
