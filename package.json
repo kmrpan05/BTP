@@ -20,7 +20,7 @@
     "requires": {
       "db": {
        "[testing]": { "kind": "sqlite", "credentials": {"url": "bookshop.sqlite" }},
-       "[development]": { "kind": "sqlite", "credentials": {"url": "bookshop.sqlite" }}        
+       "[development]": { "kind": "sqlite", "credentials": {"url":":memory:"}}        
       }
     }
   }
